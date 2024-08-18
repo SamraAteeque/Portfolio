@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+</head>
+<body>
+     <!-- ..............navbar................... -->
+<div class="navbar ">
+    <h1>Samra's Portfolio</h1>
+    <div class="nav-mob-open" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i></div>
+    <ul class="nav-menu">
+        <div class="nav-mob-close" onclick="toggleMenu()">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li> 
+    </ul>
+<div class="nav-resume"><a href="Samra-Resume.pdf" download="Samra_Ateeque_resume.pdf">Resume</a></div>
+</div>
+                
+ <!-- ................main................... -->
+<div class="hero">
+    <img src="samra1.png" alt="">
+    <h1>Hello,I'm <span class="blue" >Samra Ateeque</span>, <span id="element"></span> </h1>
+        <p>A Creative Web Designer From India.I'm very passionate and dedicated to my work.</p>
+        <div class="hero-action">
+            <div class="hero-connect"><a href="mailto:tim@gmail.com">Connect with me</a> </div>
+        <div class="hero-resume"><a href="own resume.pdf" download="Samra_Ateeque_resume.pdf">My Resume</a></div>
+</div>
+</div>
+
+
+<!-- ....about me...... -->
+
+<section class="about" id="about">
+    <div class="text">
+        <h1 class="title">About <span>Me</span> 
+        </h1>
+        
+            <p>Welcome to Samra's corner of the web! I'm a passionate and dedicated web developer with a keen
+                eye for design and a love for creating seamless, user-friendly digital experiences. With a
+                background in <span> [HTML,CSS,JS,NodeJS,and DataBase]</span>I bring a unique blend of technical
+                skills and creativity to every project.
+            <p>My journey in web development began <span>[in the 2nd year of btech(2022)]</span>, and since
+                then, I've had the pleasure of working on a diverse range of projects. From crafting responsive
+                and visually appealing websites to developing robust web applications, I thrive on turning ideas
+                into reality through code.</p>
+
+            <p>I am always eager to stay on the cutting edge of industry trends. I believe in the power of clean
+                code, intuitive user interfaces, and continuous learning.</p>
+
+            <p>Whether you're an individual looking to establish an online presence or a business seeking to
+                enhance its digital footprint, I'm here to collaborate and bring your vision to life. Let's work
+                together to build something remarkable!</p>
+
+            <p>Feel free to explore my portfolio to see examples of my work, and don't hesitate to reach out if
+                you have any questions or if you're interested in working together. Thank you for visiting, and
+                I look forward to the opportunity of contributing to your digital success.
+            </p>
+           <button><a href="mailto:tim@gmail.com" class="btn">Hire Me</a></button> 
+    </div>
+</section>
+
+    <!-- ..........skills.............. -->
+    <section class="sub-skills" id="skill">
+        <h1>Technical <span>Skills</span></h1>
+        <div class="skills">
+            <div class="sub-box">
+             <h3><i class="fa-brands fa-html5"></i> HTML</h3> 
+            </div>
+
+            <div class="sub-box">
+                <h3><i class="fa-brands fa-css3-alt"></i> CSS</h3> 
+               </div>
+
+               <div class="sub-box">
+                <h3><i class="fa-brands fa-js"></i> JavaScript</h3> 
+               </div>
+
+               <div class="sub-box">
+                <h3><i class="fa-brands fa-react"></i> ReactJS</h3> 
+               </div>
+
+               <div class="sub-box">
+                <h3><i class="fa-solid fa-c"></i> C++</h3> 
+               </div>
+
+               <div class="sub-box">
+                <h3><i class="fa-brands fa-node"></i>NodeJS</h3> 
+               </div>
+
+               <div class="sub-box">
+                <h3>Express</h3> 
+               </div>
+
+               <div class="sub-box">
+                <h3>MongoDB</h3> 
+               </div>
+
+               <div class="sub-box">
+                <h3><i class="fa-solid fa-database"></i> MySQL</h3> 
+               </div>
+
+               <div class="sub-box">
+                <h3><i class="fa-brands fa-github"></i> GitHub</h3> 
+               </div>
+        </div>
+    </section>
+
+
+    <!-- ..............projects.............. -->
+
+    <div class="container1" id="project">
+        <h1 class="heading">My <span>Projects</span></h1>
+        <div class="box-container">
+            <div class="projects">
+                <img src="Screenshot 2024-02-22 201412.png" alt="Amazon Clone Screenshot">
+                <h3>Amazon Clone</h3>
+                <p>I'm creating an Amazon Clone using HTML and CSS.</p>
+                <a href="https://github.com/SamraAteeque/web_development-projects" class="btn1">View Details</a>
+            </div>
+            <div class="projects">
+                <img src="Screenshot 2024-02-22 201451.png" alt="Digital Clock Screenshot">
+                <h3>Digital Clock</h3>
+                <p>I'm creating a Digital Clock using HTML, CSS, and JS.</p>
+                <a href="https://github.com/SamraAteeque/Digital-Clock" class="btn1">View Details</a>
+            </div>
+            <div class="projects">
+                <img src="Screenshot 2024-02-22 201528.png" alt="Calculators Screenshot">
+                <h3>Calculators</h3>
+                <p>I'm creating Calculators using HTML and CSS.</p>
+                <a href="https://github.com/SamraAteeque/Calculator-project" class="btn1">View Details</a>
+            </div>
+        </div>
+        <br>
+        <div class="box-container">
+            <div class="projects">
+                <img src="Screenshot 2024-02-22 201612.png" alt="Registration Form Screenshot">
+                <h3>Registration Form</h3>
+                <p>I'm creating a Registration Form using HTML and CSS.</p>
+                <a href="https://github.com/SamraAteeque/RegistrationForm-Project" class="btn1">View Details</a>
+            </div>
+            <div class="projects">
+                <img src="Screenshot 2024-02-22 201648.png" alt="Login Page Screenshot">
+                <h3>Login Page</h3>
+                <p>I'm creating a Login Page using HTML and CSS.</p>
+                <a href="https://github.com/SamraAteeque/Login-Page-Project" class="btn1">View Details</a>
+            </div>
+
+            <div class="projects">
+                <img src="Screenshot 2024-08-01 142358.png" alt="Travelling Page Screenshot">
+                <h3>Travelling Website</h3>
+                <p>I'm creating a Login Page using ReactJS.</p>
+                <a href="https://github.com/SamraAteeque/Travelling" class="btn1">View Details</a>
+            </div>
+
+        </div>
+        </div>
+    
+    
+
+  <!-- .........certificates..................... -->
+  <div class="container2" id="certificates">
+    <h1 class="heading">My <span>Certificates</span></h1>
+    <div class="box-container2">
+        <div class="certificates">
+            <a href="Screenshot 2024-07-10 231646.png" data-lightbox="certificates"><img src="Screenshot 2024-07-10 231646.png" alt=""></a>
+            <h3>Certificate of Appreciation</h3>
+        </div>
+        <div class="certificates">
+            <a href="Screenshot 2024-07-10 231706.png" data-lightbox="certificates"><img src="Screenshot 2024-07-10 231706.png" alt=""></a>
+            <h3>7-days Bootcamp on Machine Learning</h3>
+        </div>
+        <div class="certificates">
+            <a href="Screenshot 2024-07-10 231727.png" data-lightbox="certificates"><img src="Screenshot 2024-07-10 231727.png" alt=""></a>
+            <h3>Student Ambassador at Machine Learning Bootcamp</h3>
+        </div>
+        <div class="certificates">
+            <a href="Screenshot 2024-07-10 231754.png" data-lightbox="certificates"><img src="Screenshot 2024-07-10 231754.png" alt=""></a>
+            <h3>7-days Bootcamp with DevTown on Machine Learning</h3>
+        </div>
+        <div class="certificates">
+            <a href="Screenshot 2024-07-10 231835.png" data-lightbox="certificates"><img src="Screenshot 2024-07-10 231835.png" alt=""></a>
+            <h3>HackerRank Certificate</h3>
+        </div>
+        <div class="certificates">
+            <a href="Screenshot 2024-07-10 231853.png" data-lightbox="certificates"><img src="Screenshot 2024-07-10 231853.png" alt=""></a>
+            <h3>HackerRank Certificate</h3>
+        </div>
+        <div class="certificates">
+            <a href="Screenshot 2024-07-10 232437.png" data-lightbox="certificates"><img src="Screenshot 2024-07-10 232437.png" alt=""></a>
+            <h3>Certificate of Participation</h3>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <!-- .............contact............ -->
+    <section class="contact" id="contact">
+        <h1 class="heading">Contact<span>Me
+        </span></h1>
+        <div class="container">
+            <div class="screen4">
+                    
+                <div class="boxes">
+                    <div class="mail">
+                        <a href="mailto:tim@gmail.com" class="button"><i class="fa-solid fa-envelope"></i></a>
+                        <h2>
+                           <a href="" class="button">Email</a>
+                        </h2>
+                        <h3>samraateeque12@gmail.com</h3>
+                    </div>
+            
+                    <div class="linked">
+                        <a href="https://www.linkedin.com/in/samra-ateeque-b91461283/" class="button"><i class="fa-brands fa-linkedin"></i></a>
+                        <h2>
+                            <a href="" class="button">Linkedin</a>
+                        </h2>
+                        <h3>https://www.linkedin.com/in/samra-ateeque-b91461283/</h3>
+                    </div>
+            
+                    <div class="hub">
+                        <a href="https://github.com/SamraAteeque" class="button"> <i class="fa-brands fa-github"></i></a>
+                        <h2>
+                            <a href="" class="button">GitHub</a>
+                        </h2>
+                        <h3>https://github.com/SamraAteeque</h3>
+            
+                </div>
+
+
+             </div>
+            
+
+        </div>
+        </div>
+    </section>
+
+
+<!-- ..........footer........... -->
+<div class="footer">
+    <p> &copy; 2024 Samra Ateeque. All Rights Reserved.</p>
+</div>
+<script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script type="text/js" src="script.js"></script>
+
+
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<!-- Setup and start animation! -->
+<script>
+    var typed = new Typed('#element', {
+      strings: ['FrontEnd.', 'BackEnd.', 'DataBase.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
+
+
+
+
